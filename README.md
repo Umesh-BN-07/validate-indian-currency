@@ -50,7 +50,7 @@ Streamlit
 Pillow
 
 📂 Project Structure
-fake-currency-detector/
+validate-indian-currency/
 │
 ├── dataset/
 │   ├── training/
@@ -77,8 +77,8 @@ fake-currency-detector/
 └── README.md
 ⚙️ Installation
 1️⃣ Clone the repository
-git clone https://github.com/yourusername/fake-currency-detector.git
-cd fake-currency-detector
+git clone (https://github.com/Umesh-BN-07/validate-indian-currency.git)
+cd validate-indian-currency
 2️⃣ Install dependencies
 pip install -r requirements.txt
 🏋️ Train the Model
