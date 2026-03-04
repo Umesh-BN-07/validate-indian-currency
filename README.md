@@ -79,11 +79,15 @@ validate-indian-currency/
 
 
 ⚙️ Installation
+
 1️⃣ Clone the repository
 git clone (https://github.com/Umesh-BN-07/validate-indian-currency.git)
 cd validate-indian-currency
+
 2️⃣ Install dependencies
 pip install -r requirements.txt
+
+
 🏋️ Train the Model
 
 Run the training script:
@@ -97,6 +101,7 @@ model/currency_mobilenet_model.h5
 The confusion matrix will be saved in:
 
 reports/confusion_matrix.png
+
 ▶️ Run the Web Application
 
 Start the Streamlit application:
@@ -106,6 +111,7 @@ streamlit run app.py
 Then open the browser at:
 
 http://localhost:8501
+
 🖼️ How It Works
 
 User uploads an image of a currency note.
@@ -126,6 +132,7 @@ Batch Size	16
 Epochs	12 + Fine Tuning
 Loss Function	Binary Crossentropy
 Optimizer	Adam
+
 📈 Evaluation Metrics
 
 The model evaluation includes:
